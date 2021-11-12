@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Row , Col , Container } from 'react-bootstrap';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <Container>
+  <Row>
+    <Col>1 of 2</Col>
+    <Col>2 of 2</Col>
+  </Row>
+</Container>
       </header>
     </div>
   );
